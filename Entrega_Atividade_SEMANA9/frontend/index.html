@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <title>Atividade em aula</title>
+    </head>
+
+    
+    <body>
+        <form method="POST" action="/send">
+            <label for="msg">Coloque o nome de um país que você conheça:</label>
+            <input type="text" name="msg" id="msg">
+            <button type="submit">Adicionar páis à lista</button>
+        </form>
+        <br>
+        <h3>Países que já foram adicionados à lista:</h3>
+        <div id="msg_criadas"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
